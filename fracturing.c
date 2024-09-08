@@ -28,11 +28,11 @@ double calculateDistance(){
     printf("x1 = ");
     scanf("%lf", &x1);
 
-    printf("y1 = ");
-    scanf("%lf", &y1);
-
     printf("x2 = ");
     scanf("%lf", &x2);
+    
+    printf("y1 = ");
+    scanf("%lf", &y1);
 
     printf("y2 = ");
     scanf("%lf", &y2);
@@ -41,8 +41,8 @@ double calculateDistance(){
     double distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 
     // Print results
-    printf("Point #1 entered: x1 = %lf ; x2 = %lf\n", x1, x2);
-    printf("Point #2 entered: y1 = %lf ; y2 = %lf\n", y1, y2);
+    printf("Point #1 entered: x1 = %lf ; y1 = %lf\n", x1, y1);
+    printf("Point #2 entered: x2 = %lf ; y2 = %lf\n", x2, y2);
     printf("The distance between the two points is %lf\n", distance);
 
     // Return distance
