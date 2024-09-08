@@ -21,8 +21,8 @@ double calculateWidth();
 double calculateHeight();
 
 double calculateDistance(){
-    //static variables
-    static double x1, y1, x2, y2;
+    //static variables 
+    static double x1, x2, y1, y2;
 
     // Input values
     printf("x1 = ");
@@ -41,8 +41,8 @@ double calculateDistance(){
     double distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 
     // Print results
-    printf("Point #1 entered: x1 = %lf ; y1 = %lf\n", x1, y1);
-    printf("Point #2 entered: x2 = %lf ; y2 = %lf\n", x2, y2);
+    printf("Point #1 entered: x1 = %lf ; x2 = %lf\n", x1, x2);
+    printf("Point #2 entered: y1 = %lf ; y2 = %lf\n", y1, y2);
     printf("The distance between the two points is %lf\n", distance);
 
     // Return distance
